@@ -9,7 +9,13 @@ For vim, place the files and folders within in the user's local root
 (i.e. at `~`).
 
 For vim config:
-```git clone -b vim https://github.com/jlkump/vim-config.git ~```
+```
+cd ~
+git clone --depth=1 -b vim https://github.com/jlkump/vim-config.git
+```
 
 For nvim config:
-```git clone -b neovim https://github.com/jlkump/vim-config.git ~```
+```
+cd ~
+git clone --depth=1 -b neovim https://github.com/jlkump/vim-config.git
+```
