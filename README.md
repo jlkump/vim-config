@@ -19,3 +19,5 @@ For nvim config:
 cd ~
 git clone --depth=1 -b neovim https://github.com/jlkump/vim-config.git
 ```
+
+Then extract the files from the resulting vim-config folder to `~` and delete the vim-config folder
